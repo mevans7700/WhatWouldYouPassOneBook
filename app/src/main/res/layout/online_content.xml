@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:background="@color/background">
+
+ <TabHost android:id="@+id/TabHost01" android:layout_height="fill_parent" 
+  android:layout_width="fill_parent">
+  <LinearLayout android:id="@+id/LinearLayout01" android:orientation="vertical" 
+   android:layout_height="fill_parent" android:layout_width="fill_parent">
+   <TabWidget android:id="@android:id/tabs" android:layout_height="wrap_content" 
+    android:layout_width="fill_parent" android:paddingTop="3dp">
+   </TabWidget>
+   <FrameLayout android:id="@android:id/tabcontent" android:layout_height="fill_parent" 
+    android:layout_width="fill_parent">
+    <ListView android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@android:color/white" 
+     android:dividerHeight="2dp" android:id="@+id/videoList" android:cacheColorHint="#00000000" android:paddingTop="5dp">
+    </ListView>
+    <ListView android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@android:color/white" 
+     android:dividerHeight="2dp" android:id="@+id/imageList" android:cacheColorHint="#00000000" android:paddingTop="5dp">
+    </ListView>
+    <ListView android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@android:color/white" 
+      android:dividerHeight="2dp" android:id="@+id/audioList" android:cacheColorHint="#00000000" android:paddingTop="5dp">
+    </ListView>
+    <ListView android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@android:color/white" 
+      android:dividerHeight="2dp" android:id="@+id/docList" android:cacheColorHint="#00000000" android:paddingTop="5dp">
+    </ListView>
+   </FrameLayout>
+  </LinearLayout>
+ </TabHost>
+</LinearLayout>

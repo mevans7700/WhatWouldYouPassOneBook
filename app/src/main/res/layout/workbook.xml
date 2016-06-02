@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="fill_parent" android:background="@android:color/white" android:layout_height="fill_parent" android:orientation="vertical">
+    <TextView android:layout_height="wrap_content" 
+     android:layout_width="fill_parent" 
+     android:textStyle="bold" 
+     android:id="@+id/online_content_header" 
+     android:padding="5dp" 
+     android:text="@string/online_content_header" android:textSize="@dimen/online_content_header_text_size" android:textColor="@color/text_link_color">
+    </TextView>
+    <View android:layout_width="wrap_content" android:background="@color/text_workbook_color" android:layout_height="6px"></View>
+    
+    <ListView android:id="@+id/android:list"
+          android:layout_width="wrap_content"
+        	android:layout_height="wrap_content" android:cacheColorHint="#00000000"/>
+  	<TextView android:id="@+id/android:empty"
+          android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="No Questions!"/>
+</LinearLayout>

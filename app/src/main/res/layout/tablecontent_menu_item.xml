@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingBottom="10dp">
+<TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:textSize="@dimen/table_menu_item_size" android:id="@+id/Chapter" android:textColor="@android:color/black" android:textStyle="bold" android:paddingLeft="3dp" android:paddingRight="3dp"></TextView>
+<TextView
+  android:layout_height="wrap_content" android:layout_width="fill_parent" android:textColor="@android:color/black" android:textSize="@dimen/instruct_text_size" android:id="@+id/Chapter_Name" android:paddingLeft="5dp" android:paddingRight="5dp">
+</TextView>
+
+
+
+</LinearLayout>

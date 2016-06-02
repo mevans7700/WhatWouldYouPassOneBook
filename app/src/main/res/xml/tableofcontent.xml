@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--What Would You Pass On? Table of Content-->
+<chapters>
+  <chapter name="Title Page" desc="" num=" "></chapter>
+  <chapter name="Copyright" desc="" num="7f060008"></chapter>
+  <chapter name="Prologue" desc="" num="7f06000a"></chapter>
+  <chapter name="Chapter 1" desc="A Universal Perspective" num="7f060003"></chapter>
+  <chapter name="Chapter 2" desc="Q1. You Must Have Belief" num="7f060004"></chapter>
+  <chapter name="Chapter 3" desc="Q2. Fear Keeps Us Safe?" num="7f060005"></chapter>
+  <chapter name="Chapter 4" desc="Q3. Transformation" num="7f060006"></chapter>
+  <chapter name="Chapter 5" desc="You Already Know" num="7f060007" />
+  <chapter name="Movement of Change Program" desc="" num="7f060009"></chapter>
+  <chapter name="Acknowlegements" desc="" num="7f060001"></chapter>
+  <chapter name="Back of the Book" desc="" num="7f060002"></chapter>
+</chapters>

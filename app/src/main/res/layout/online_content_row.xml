@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal" 
+  android:background="@android:color/white" android:layout_height="wrap_content" android:paddingLeft="5dp" android:paddingRight="5dp" android:paddingBottom="7dp" android:paddingTop="7dp" android:layout_width="fill_parent" android:layout_gravity="fill_horizontal">
+  <TextView android:textColor="@android:color/black" android:layout_height="fill_parent" android:gravity="center_vertical" 
+   android:layout_width="wrap_content" android:id="@+id/filler" android:textSize="@dimen/onlinecontent_text_size">
+  </TextView>
+  <TextView android:layout_width="fill_parent" android:singleLine="true" android:gravity="center_vertical" 
+   android:textSize="@dimen/onlinecontent_text_size" android:textColor="@android:color/black" android:layout_height="fill_parent" 
+   android:layout_weight="1" android:id="@+id/titleItem" android:text="My You Tube Videos"> 
+  </TextView>
+  <Button android:gravity="center" android:id="@+id/gotoBtn" android:background="@drawable/gotocontent" android:onClick="myClickHandler" 
+   android:textSize="14dp" android:layout_height="fill_parent" android:layout_width="wrap_content" 
+   android:textColor="@android:color/white" android:width="60px">
+  </Button>
+    
+</LinearLayout>

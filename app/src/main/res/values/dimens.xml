@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+<dimen name="screen_title_size">36dp</dimen>
+<dimen name="menu_item_size">36dp</dimen>
+<dimen name="book_text_padding">20dp</dimen>
+<dimen name="titlepage_title_size">32dp</dimen>
+<dimen name="titlepage_subtitle_size">28dp</dimen>
+<dimen name="titlepage_author_size">20dp</dimen>
+<dimen name="titlepage_footer_size">15dp</dimen>
+<dimen name="chp_text_size">20dp</dimen>
+<dimen name="book_text_size">18dp</dimen>
+<dimen name="table_menu_item_size">25dp</dimen>
+<dimen name="instruct_text_padding">20dp</dimen>
+<dimen name="instruct_text_size">16dp</dimen>
+<dimen name="workbook_question_size">16dp</dimen>
+<dimen name="workbook_edit_text_size">16dp</dimen>
+<dimen name="email_text_size">20dp</dimen>
+<dimen name="onlinecontent_text_size">18dp</dimen>
+<dimen name="onlinecontenthdr_text_size">25dp</dimen>
+<dimen name="table_content_header_text_size">16dp</dimen>
+<dimen name="online_content_header_text_size">18dp</dimen>
+</resources>

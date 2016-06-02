@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="fill_parent" android:layout_width="fill_parent" android:orientation="vertical" android:background="@color/background">
+    <TextView android:id="@+id/textView1" android:gravity="center" android:text="@string/titlepage_tile" android:textColor="@android:color/black" android:textStyle="bold" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textSize="@dimen/titlepage_title_size" android:paddingTop="30dp"></TextView>
+    <TextView android:id="@+id/textView2" android:text="@string/titlepage_subtitle" android:gravity="center" android:layout_height="wrap_content" android:layout_width="fill_parent" android:textColor="@android:color/black" android:textSize="@dimen/titlepage_subtitle_size" android:paddingTop="70dp" android:textStyle="bold|italic"></TextView>
+    <TextView android:id="@+id/textView3" android:layout_height="wrap_content" android:layout_width="fill_parent" android:gravity="center" android:text="@string/titlepage_author" android:textSize="@dimen/titlepage_author_size" android:textStyle="bold" android:textColor="@android:color/black" android:paddingTop="120dp"></TextView>
+    <TextView android:id="@+id/textView4" android:layout_height="wrap_content" android:layout_width="fill_parent" android:gravity="center" android:text="@string/titlepage_footer" android:textSize="@dimen/titlepage_footer_size" android:textColor="@android:color/black" android:paddingTop="90dp" android:autoLink="web"></TextView>
+</LinearLayout>

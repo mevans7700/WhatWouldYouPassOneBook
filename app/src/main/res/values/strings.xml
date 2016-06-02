@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WhatWould YouPassOn?</string>
+    <string name="app_titlebar">What Would You Pass On? eBook</string>
+<string name="titlepage_tile">What Would You Pass On?</string>
+<string name="titlepage_subtitle">A small book about stepping into your ideal life</string>
+<string name="titlepage_author">Matthew Thomas</string>
+<string name="titlepage_footer"></string>
+<string name="table_content">Table of Contents</string>
+<string name="table_content_header">Welcome to %1$s! You can view the book by choosing from the table of contents below. For additional content select the menu button on your phone. Enjoy! </string>
+<string name="workbook_button_label">Workbook Questions</string>
+<string name="menu_item_content">Online content</string>
+<string name="menu_item_workbook">All Workbook</string>
+<string name="menu_item_instructions">Instructions</string>
+<string name="menu_item_share">Share</string>
+<string name="menu_item_about">About author</string>
+<string name="confirm_button_text">Confirm</string>
+<string name="online_content_videos">Videos</string>
+<string name="online_content_images">Images</string>
+<string name="online_content_audio">Audio</string>
+<string name="online_content_docs">Docs</string>
+<string name="online_content_title">Title</string>
+<string name="online_content_link">Link</string>
+<string name="online_content_header">To answer a question, select it by pressing the question.  Answers to each question will appear below the question and will be red in color.</string>
+<string name="no_content">No Content</string>
+<string name="about_author_title">About Author</string>
+<string name="instructions_title">Instructions</string>
+<string name="instructions_text">Welcome to the %1$s app.  The message in this book comes to you in the following ways - text, audio, video, journal workbook, documents and images.  All of this content can give you a deeper experience of the message that is intended for you. You an access each chapter from the main Table of Contents and you can access the additional content by selecting the menu button on the phone.
+
+The menu gives you access to the online content, the entire workbook, information about the author, and the chance to share this book with your friends. At the bottom of each chapter you will find buttons to the exercises setup for that chapter.  
+
+The journal workbook present to you questions that help personalize the message in the book for you.  When you access a journal page, choose a question to answer by simply pressing down on that question.  That will open a new window for you to actually answer the question on your phone.  All entries are private and only stored on the phone.  After you submit your answer, that answer will show below the question when you go back to the list of questions.  Your answers will be in red.
+
+If you want information on how to create an app for your book, please visit:\n\n www.MessengerPhoneApps.com
+</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:paddingTop="5dp" android:layout_height="fill_parent" android:background="@color/background">
+    <RelativeLayout android:id="@+id/RelativeLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:background="@drawable/back" android:id="@+id/backButton"></ImageButton>
+        <ImageButton android:id="@+id/workbook_button" android:layout_centerInParent="true" android:layout_alignParentTop="true" android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="@drawable/workbook"></ImageButton>
+        <ImageButton android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/next" android:id="@+id/nextButton"></ImageButton>
+    </RelativeLayout>
+    <View android:id="@+id/view1" android:layout_width="wrap_content" android:layout_height="6px" android:background="@color/separater"></View>
+    <TextView android:layout_height="wrap_content" android:gravity="center" android:layout_width="fill_parent" android:textStyle="bold" android:textSize="@dimen/chp_text_size" android:textColor="@android:color/black" android:padding="3dp" android:id="@+id/chapterTitle"></TextView>
+  
+  <ScrollView android:id="@+id/ScrollView01" 
+   android:layout_width="fill_parent" 
+   android:layout_height="fill_parent" 
+   android:scrollbarStyle="outsideOverlay" 
+   android:isScrollContainer="true" android:scrollbars="vertical">
+ 
+   <LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+  
+    <TextView 
+    android:layout_height="fill_parent" 
+    android:layout_width="fill_parent" 
+    android:id="@+id/TextView_BookText"
+    android:autoLink="all" 
+    android:bufferType="spannable" 
+    android:drawablePadding="5px" 
+    android:fadingEdge="vertical" 
+    android:fadingEdgeLength="25px" 
+    android:linksClickable="true" 
+    android:textSize="@dimen/book_text_size" 
+    android:padding="@dimen/book_text_padding" 
+    android:textColor="@android:color/black" 
+    android:textColorLink="@color/text_link_color" android:typeface="serif">
+    </TextView>    
+   </LinearLayout>  
+  </ScrollView>
+  
+</LinearLayout>
